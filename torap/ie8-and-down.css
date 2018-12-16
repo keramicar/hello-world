@@ -1,0 +1,13 @@
+﻿header, main, footer, nav {
+  display: block;
+ }
+
+ p {
+ color: white;
+ }
+
+ footer p {
+  color: white;
+ }
+ 
+ 
