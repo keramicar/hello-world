@@ -1,0 +1,260 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html class="lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html class="lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html> <!--<![endif]--> 
+ <!--[if IE]>
+  <meta http-equiv="imagetoolbar" content="no">
+  <script type="text/javascript" src="https://developer.cdn.mozilla.net/static/build/js/html5shiv.3948ccddab6f.js" charset="utf-8"></script>
+  <![endif]-->
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <script>(function(d) { d.className = d.className.replace(/\bno-js/, ''); }) 
+   (document.documentElement);</script>
+    <!--[if lt IE 9]>
+   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js">
+   </script>
+   <![endif]-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="index, folow">
+  <meta name="description" content="Kvalitetni keramičari sa iskustvom u radu sa svim vrstama pločica, na lepak i na materijal,na svim pozicijama,kupatila, kuhinje, terase, hodnici, stepeništa, unutrašnji i vanjski radovi.">
+  <meta name="keywords" content="keramičari,pločice,lepak,bordure,lajsne,mozaici,fugomal">
+  <meta name="author" content="Zoran Rađenović">
+  <title>Kvalitetni Keramičari</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+<!--[if IE 8]>
+<link href="css/ie8.css" rel="stylesheet" type="text/css">
+<![endif]-->
+  ggogle maps 
+   <script type="text/javascript" src="https://maps.google.com/maps/api/js?key=AIzaSyDDuGt0E5IEGkcE6ZfrKfUtE9Ko_de66pA"> </script> 
+   <script>
+    if("geolocation" in navigator) {
+
+      navigator.geolocation.getCurrentPosition(function(position) {
+      var latlng = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
+      var myOptions = {
+       zoom: 8,
+       center: latlng,
+       mapType: google.maps.MapTypeId.TERRAIN,
+       disabledDefault: true
+ }
+  var map = new google.maps.Map(document.getElementById('map_canvas'), myOptions);
+  var marker = new google.maps.Marker({position:latlng});
+  marker.setMap(map);
+ });
+ } else {
+    var para = document.createElement('p');
+    para.textContent = 'Argh, no geolocation!';
+    document.body.appendChild(para);
+ }
+   </script> 
+ <!-- drugačiji način za googl map -->
+ <script>
+  /*
+   function myMap() {
+    var myCenter = new google.maps.LatLng(position.coords.latitude,position.coords.longitude);
+    var mapCanvas = document.getelementById('map_canvas');
+    var myOptions = { center:myCenter, zoom:8};
+    var map = new google.maps.Map(mapCanvas, mapOptions);
+    var marker = new google.maps.Marker({position:mycenter});
+    marker.setMap(map);
+ 
+ }*/
+  </script>
+
+   <style>
+     #map_canvas {
+        width: 100%;
+        height: 600px;
+ }
+
+ * {
+    box-sizing: border-box;
+ }
+
+ /*styling inputs*/
+ section .container .contact input[type=text], select, texterea {
+     width: 100%;
+     padding: 12px;
+     border: 1px solid #ccc;
+     margin-top: 6px;
+     margin-bottom: 16px;
+     resize: vertical;
+ }
+
+ input[type=submit] {
+    background-color: #4caf50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+ }
+ input[type=submit]:hover {
+  background-color: #45a049;
+ }
+
+ /*style the container/contact section*/
+ .contact {
+    border-radius: 5px;
+    background-color: inherit;
+    padding: 10px;
+    display: block;
+    margin:5px auto;
+    color: white;
+ }
+ /*create two columns that float next to eachother*/
+   .column {
+       float: left;
+       width: 50%;
+       margin-top: 6px;
+       padding: 20px;
+ }
+/*clear floats after the columns*/
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+ }
+
+ .naslov {
+  text-align: center;
+  display: block;
+  
+  
+ }
+  .naslov p {
+  font-size: 1.5em;
+ }
+ .naslov h1 {
+  font-size: 1.5rem;
+ }
+ label {
+   font-size: 1.5rem;
+ }
+ /*resposive layout*/
+ @media (max-width: 600px) {
+   .column, input[type=submit] {
+     width: 100%;
+     margin-top: 0;
+     
+    }
+  .row {
+   display: block;
+   }
+ }
+
+
+   </style>
+ 
+   
+  
+
+</head>
+ <body id="bd">
+
+ <header>
+  <div class="container">
+    <img src="img/large_web1.jpg"  width="672" height="150" alt="slika svemira"> 
+   <div id="branding">
+    <h1><span class="highlight">Kvalitetni</span> keramičari</h1>
+   </div>
+    <p id="demo"></p>
+
+    <div class="social-media">
+    <a href="#" class="fa fa-facebook" title="facebook"> </a>
+    <a href=""#" class="fa fa-twitter" title="twitter"></a>
+    <a href="#" class="fa fa-google" title="google"></a>
+    <a href="#" class="fa fa-linkedin" title="linkedin"></a>
+    <a href="#" class="fa fa-youtube" title="youtube"></a>
+    <a href="#" class="fa fa-instagram" title="instagram"></a>
+    <a href="#" class="fa fa-pinterest" title="pinterest"></a>
+    
+   </div>
+
+    <div class="search-container">
+  <form action="/action_page.php">
+  <input type="text" placeholder="Search.." name="search">
+  <button type="submit"><i class="fa fa-search"></i> </button>
+  </form>
+  </div>
+  </div>
+  </header>
+   
+   <nav>
+   <div class="container">
+   <div id="navli">
+    <ul>
+     <li><a href="index.html">Naslovna</a></li>
+     <li><a href="about.html">O nama</a></li>
+     <li><a href="services.html">Usluge</a></li>
+     <li><a href="cene.html">Cene</a></li>
+     <li><a href="galerija.html">Galerija</a></li>
+     <li class="current"><a href="mapa.html">Mapa</a></li>
+     <li><a href="slide.html">Reklama</a></li>
+    </ul>
+   </div>
+    </div>
+   </nav>
+
+   <section id="showcase">
+    <div class="container">
+     <div class="contact">
+      <div class="naslov">
+      <h1>Kontaktirajte nas</h1>
+      <p>Ostavite vaš komentar</p>
+      </div>
+    <div class="row">
+     <div class="column">
+      <div id="map_canvas"></div> 
+     </div>
+     <div class="column">
+      <form action="/action_page.php">
+       <label for="fname">Ime</label>
+       <input type="text" id="fname" name="firstname"
+         placeholder="Your name..">
+
+       <label for="lname">Prezime</label>
+       <input type="text" id="lname" name="lastname"
+        placeholder="Your last name...">
+   
+       <label for="country">Država</label>
+       <select id="country" name="country">
+        <option value="srbija">Srbija</option>
+        <option value="crna gora">Crna Gora</option>
+        <option value="bih">BiH</option>
+        <option value="makedonija">Makedonija</option>
+        <option value="engleska">Engleska</option>
+        <option value="usa">USA</option>
+       </select>
+       <label for="subject">Komentar</label>
+       <textarea id="subject" name="subject" placeholder="Napišite nešto..." style="height: 170px;width: 100%;"></textarea>
+       <input type="submit" value="Pošalji">
+      </form>
+     </div>
+    </div>
+    
+     
+    </div>
+   </section>
+   
+  
+ 	
+
+
+
+
+ </figure>
+ <footer>
+  <p>Kvalitetni keramičari,Copyright &copy; 2017</p>
+ </footer>
+
+ <script src="main.js"></script>
+ <script src="date.js"></script>
+ </body>
+</html>

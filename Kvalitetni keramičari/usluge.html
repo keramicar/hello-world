@@ -1,0 +1,205 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html class="lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html class="lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html> <!--<![endif]--> 
+ <!--[if IE]>
+  <meta http-equiv="imagetoolbar" content="no">
+  <script type="text/javascript" src="https://developer.cdn.mozilla.net/static/build/js/html5shiv.3948ccddab6f.js" charset="utf-8"></script>
+  <![endif]-->
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE-Edge">
+  <script>(function(d) { d.className = d.className.replace(/\bno-js/, ''); }) 
+   (document.documentElement);</script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="index, folow">
+  <meta name="description" content="Kvalitetni keramičari sa iskustvom u radu sa svim vrstama pločica, na lepak i na materijal,na svim pozicijama,kupatila, kuhinje, terase, hodnici, stepeništa, unutrašnji i vanjski radovi.">
+  <meta name="keywords" content="keramičari,pločice,lepak,bordure,lajsne,mozaici,fugomal">
+  <meta name="author" content="Zoran Rađenović">
+  <title>Kvalitetni Keramičari | Services</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+   /*style the tab*/
+    div.tab {
+     overflow: hidden;
+     border: 1px solid #ccc;
+     background-color: #f1f1f1;
+ }
+
+ /*style the buttons inside tab*/
+   div.tab button {
+    background-color: inherit;
+    float: left;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transiton: 0.3s;
+    font-size:17px;
+ }
+
+  /*change the background-color of buttons on hover*/
+     div.tab button: hover {
+       background-color: #ddd;
+ }
+/*create an active tablinks classes*/
+   div.tab button.active {
+    background-color=#aaa;
+ }
+ /*style the tab content*/
+    .tabcontent {
+     display: none;
+     padding: 6px 12px;
+     border: 1px solid #ccc;
+     border-top: none;
+     background-color:#ccc;
+     font-size: 17px;
+     
+ }
+    .topright {
+     float: right;
+     
+     cursor: pointer;
+     color: white;
+     border: 1px solid rgba(200,250,100,1);
+     width: 40px;
+     height: 20px;
+     font-size: 15px;
+     text-align: center;
+ }
+
+  .topright:hover {
+     background: linear-gradient(to bottom,rgba(255,0,0,0.3), rgba(255,0,50,0.9));
+     box-shadow: 2px 2px 5px rgba(255,0,0,0.7),
+      -2px -2px 5px rgba(255,0,0,0.7);
+     //border: 1px solid rgba(255,0,255,1);
+     z-index: 1;
+     //border-bottom:1px solid rgba(255,255,255,0.7);
+     
+     border: none;
+ }
+     
+    
+    
+  </style>
+
+</head>
+ <body>
+
+ <header>
+  <div class="container">
+    <img src="img/large_web1.jpg"  width="672" height="150" alt="slika svemira">
+   <div id="branding">
+    <h1><span class="highlight">Kvalitetni</span> keramičari</h1>
+   </div>
+  </div>
+  </header>
+
+
+   <nav>
+   <div class="container">
+   <div id="navli">
+    <ul>
+     <li><a href="index.html">Naslovna</a></li>
+     <li><a href="about.html">O nama</a></li>
+     <li class="current" onmouseover='services()'  ><a href="services.html">Usluge</a></li>
+     <li><a href="cene.html">Cene</a></li>
+     <li><a href="galerija.html">galerija</a></li>
+     <li><a href="mapa.html">Mapa</a></li>
+    </ul>
+    </div>
+    <div id="usluge" >
+     <span style='border:1px solid white;background-color:red;padding:1px 5px;color:white;float: right;cursor:pointer;font-size:10px;font-weigth:4px;' onclick='this.parentElement.style.display="none"'>X</span>
+    <ul class='menu'>
+     <li>Postavljanje keramike</li>
+     <li>Moleraj</li>
+     <li>Stolarija</li>
+     <li>Parket</li>
+     <li>Laminat</li>
+     <li>Vodovod</li>
+     <li>Gipsani readovi</li>
+     <li>Struja</li>
+     </ul>
+    </div>
+    </div>
+   </nav>
+ 
+ 
+
+
+
+ <section id="main">
+  <div class="container">
+   <article id="main-col">
+    <h2 class="page-title">Usluge</h2>
+    <div class="tab">
+     <button class="tablinks" onclick="openCity(event,'Kupatila')">Kupatila</button>
+     <button class="tablinks" onclick="openCity(event,'Kuhinje')">Kuhinje</button>
+     <button class="tablinks" onclick="openCity(event,'Stepenište')">Stepenište</button>
+     <button class="tablinks" onclick="openCity(event,'Podovi')">Podovi</button>
+    </div>
+    <div class="tabcontent" id="Kupatila">
+      <span class="topright" onclick="this.parentElement.style.display='none'">X</span>
+     <h3>kupatila</h3>
+     <p>Renovirajte vaše kupatilo</p>
+    
+    </div>
+      
+    <div id="Kuhinje" class="tabcontent">
+    <span class="topright" onclick="this.parentElement.style.display='none'">X</span>
+    <h3>Kuhinje</h3>
+    <p>Obnovite staru kuhinju</p>
+    
+    </div>
+
+    <div class="tabcontent" id="Stepenište">
+     <span class="topright" onclick="this.parentElement.style.display='none'">X</span>
+     <h3>Stepenište</h3>
+     <p>Osvežite stepenište</p>
+     
+    
+     </div>
+
+    <div class="tabcontent" id="Podovi">
+     <span class="topright" onclick="this.parentElement.style.display='none'">X</span>
+     <h3>Podovi</h3>
+     <p>Ulepšajte podove</p>
+     
+    </div>
+    
+   
+   </article>
+
+  
+ </div>
+ </section>
+
+ <footer>
+  <p>Kvalitetni keramičari,Copyright &copy; 2017</p>
+ </footer>
+
+<script>
+  function openCity(e,cityName) {
+   var i,tabcontent,tablinks;
+    tabcontent= document.getElementsByClassName('tabcontent');
+   for (i=0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display='none';
+ }
+   tablinks= document.getElementsByClassName('tablinks');
+   for (i=0; i < tablinks.lenght; i++) {
+    tablinks[i].className=tablinks[i].className.replace('active', '');
+
+ }
+  document.getElementById(cityName).style.display='block';
+  e.currentTarget.className +=' active';
+  
+ }
+</script>
+ 
+
+ 
+</script>
+ </body>
+</html>

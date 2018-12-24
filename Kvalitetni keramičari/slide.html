@@ -1,0 +1,312 @@
+﻿
+     <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html class="lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html class="lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html> <!--<![endif]--> 
+ <!--[if IE]>
+  <meta http-equiv="imagetoolbar" content="no">
+  <script type="text/javascript" src="https://developer.cdn.mozilla.net/static/build/js/html5shiv.3948ccddab6f.js" charset="utf-8"></script>
+  <![endif]-->
+
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <script>(function(d) { d.className = d.className.replace(/\bno-js/, ''); }) 
+   (document.documentElement);</script>
+ 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="index, folow">
+  <meta name="description" content="Kvalitetni keramičari sa iskustvom u radu sa svim vrstama pločica, na lepak i na materijal,na svim pozicijama,kupatila, kuhinje, terase, hodnici, stepeništa, unutrašnji i vanjski radovi.">
+  <meta name="keywords" content="keramičari,pločice,lepak,bordure,lajsne,mozaici,fugomal">
+  <meta name="author" content="Zoran Rađenović">
+  <meta name="description" content="kvalitetni keramičari,adaptacija stanova kroz postupnu obnovu svih izvođačkih radova,moleraja,keramike,vodovoda,električnih instalacija,gipsanih radova,polaganja podnih obloga,itd..">
+  <title>Kvalitetni Keramičari</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+<!--[if IE 8]>
+<link href="css/ie8.css" rel="stylesheet" type="text/css">
+<![endif]-->
+
+  <link rel="stylesheet" href="css/style.css">
+  
+  <script type="text/javascript" src="jquery-3.1.0.min.js">
+   </script> 
+  <script>
+  (function ($) {
+    "use strict";
+
+    // Detecting IE
+    var oldIE;
+    if ($('html').is('.lt-ie7, .lt-ie8, .lt-ie9')) {
+        oldIE = true;
+    }
+
+    if (oldIE) {
+        // Here's your JS for IE..
+    } else {
+        // ..And here's the full-fat code for everyone else
+    }
+
+}(jQuery));</script>
+
+
+ <style>
+ 
+
+ 
+    @media(max-width: 450px) {
+      canvas {
+       display: none;
+ }
+
+ //section #panel  {
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+ 
+  
+   
+   
+   
+ }
+ }  
+  /*slide*/
+ 
+
+ 
+
+section #flip {
+    //padding: 5px;
+    font-size: 18px;
+    
+    //background-color: #555;
+    color: white;
+    border: solid 1px #666;
+    border-radius: 3px;
+    //position: relative;
+    //position: fixed;
+    
+}
+  section #h {
+  
+   //margin-left:30%;
+   
+   
+   
+ }
+ section #flip {
+  cursor: pointer;
+  margin-bottom:10px;
+ }
+
+section#panel {
+    top: 0;
+    left:0;
+    //overflow:auto;
+    transition: 8s;
+    //padding-top:50px;
+    //height:0;
+    background: url('img/large_web.jpg');
+    font-weight:700;
+    //min-width: 370px;
+    //background-position: 300px 200px;
+    //background-size: 300px 300px;
+   background-repeat: no-repeat;
+     border-top:none;
+     max-width: 100%;
+     margin: auto;
+     text-align: center;
+     height: 0;
+     background-size: 100% 100%;
+     background-position:center;
+     background-orgin: border-box;
+ 
+     } 
+  
+ section#panel h2 {
+   //position: absolute;
+   //top:100px;
+   
+  // margin: auto;
+  // max-width: 100%;
+  color: white; 
+  height: 0;
+  cursor: pointer;
+
+
+ }
+ section#panel div {
+  text-align: center;
+  width: 100%;
+  margin: auto;
+ }
+  section #panel img {
+   //margin: auto;
+   //position:absolute;
+   top:0;
+   left:0;
+   width: 100%;
+ }
+ }
+   
+/* Chrome, Safari, Opera 
+//@-webkit-keyframes mymove {
+    from {top: 0px; }
+    to {top: 200px; }
+}
+
+@keyframes mymove {
+    from {top: 0px;height:0;}
+    to {top: 0px;height: 200px;padding: 50px;}
+}
+ #panel {
+   trnsition-timing-function: ease-in-out;
+ } */     
+ </style>
+
+
+
+</head>
+ <body id="bd" class="bodi">
+
+ <header>
+  <div class="container">
+   <img src="img/large_web1.jpg"  width="672" height="150" alt="slika svemira">
+   <div id="branding">
+    <h1><span class="highlight">Kvalitetni</span> keramičari</h1>
+   </div>
+   
+   <p id="demo"></p>
+ 
+  <div class="social-media">
+    <a href="#" class="fa fa-facebook" title="facebook"> </a>
+    <a href=""#" class="fa fa-twitter" title="twitter"></a>
+    <a href="#" class="fa fa-google" title="google"></a>
+    <a href="#" class="fa fa-linkedin" title="linkedin"></a>
+    <a href="#" class="fa fa-youtube" title="youtube"></a>
+    <a href="#" class="fa fa-instagram" title="instagram"></a>
+    <a href="#" class="fa fa-pinterest" title="pinterest"></a>
+    
+   </div>
+  
+  <div class="search-container">
+  <form action="/action_page.php">
+  <input type="text" placeholder="Search.." name="search">
+  <button type="submit"><i class="fa fa-search"></i> </button>
+  </form>
+  </div>
+  </div>
+  </header>
+   
+   <nav>
+   <div class="container">
+   <div id="navli">
+    <ul>
+    
+     <li><a href="index.html" >Naslovna</a></li>
+     <li><a href="about.html">O nama</a></li>
+     <li><a href="usluge.html">Usluge</a></li>
+     <li><a href="cene.html">Cene</a></li>
+     <li><a href="galerija.html">Galerija</a></li>
+     <li><a href="mapa.html">Mapa</a></li>
+
+     <li id="slide" class="current"><a href="slide.html">Reklama</a></li>
+    </ul>
+    
+   </div>
+    </div>
+   </nav>
+
+
+
+  <section id="panel">
+  
+ <!-- <div id="flip">Click to slide down panel</div> -->
+  
+   <!-- <img src="img/large_web.jpg"> -->
+   <h2>Kvalitetni keramičari</h2>
+  
+
+  </section>
+ 	
+
+
+
+ <footer>
+  <p>Kvalitetni keramičari,Copyright &copy; 2017</p>
+ </footer>
+
+
+
+<script>
+/*
+  var flip= document.getElementById('flip');
+  var panel=document.getElementById('panel');
+  var btn= document.getElementById('stop');
+  var btn1= document.getElementById('move');
+  
+  flip.onclick = function() {
+    panel.style.WebkitAnimation=' mymove 4s 1';
+    panel.style.display='block';
+    panel.style.animation='mymove 8s 1';
+    
+   }
+   panel.addEventListener('animationstart',myStartFunc);
+   panel.addEventListener('animationend',myEndFunc);
+   btn.addEventListener('click',myStop);
+   btn1.addEventListener('click',myMove);
+
+   function myStartFunc() {
+     this.style.backgroundColor='blue';
+ }
+   function myEndFunc() {
+      panel.style.padding='50px';
+ }
+   function myStop() {
+   panel.style.animationPlayState='paused';
+ }
+  function myMove() {
+    panel.style.animationPlayState='running';
+ }
+ */
+ </script>
+ <script>
+  var flip=document.getElementById('flip');
+  var panel=document.getElementById('panel');
+  var btn=document.getElementById('stop');
+  var slide = document.getElementById('slide');
+  var li = document.querySelectorAll('li')[6];
+  var h = document.querySelector('h2');
+
+ 
+  
+   h.onclick=function() {
+    panel.style.height='500px';
+    panel.style.padding='10px';
+    panel.style.paddingTop='150px';
+   
+    panel.style.fontSize='50px';
+    panel.style.backgroundColor='rgba(0,0,255,0.8)';
+ }
+
+ /*btn.onclick=function() {
+   panel.style.height='0';
+   panel.style.padding='0';
+  }*/
+
+
+ 
+  
+ 
+  
+
+ </script>
+ <script src="date.js"></script>
+
+ </body>
+ </body>
+</html>

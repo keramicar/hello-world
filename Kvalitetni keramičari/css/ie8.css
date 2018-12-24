@@ -1,0 +1,15 @@
+﻿section, header,nav,aside,footer,figure,main {
+  display: block;
+ }
+ body {
+  background-color:blue;
+}
+   #branding h1{
+   
+   margin: 0;
+   text-shadow: 1px 1px 1px black;
+   font-size: 3.5em;
+   letter-spacing: 2px;
+   word-spacing: 10px;
+ }
+
