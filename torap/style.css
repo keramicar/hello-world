@@ -36,7 +36,7 @@ header {
  
  }
 main#index {
- background-image: url(tiles-1.jpg);
+ background-image: url('https://github.com/keramicar/hello-world/blob/master/torap/tiles-1.jpg?raw=true');
  text-align: center;
  font-weight: bold;
  }
@@ -47,11 +47,11 @@ main#index p {
  font-size: 1.5em;
  }
 main#poslovi {
-  background-image: url(tiles-2.jpg);
+  background-image: url('https://github.com/keramicar/hello-world/blob/master/torap/tiles-2.jpg?raw=true');
   font-weight: bold;
  }
  main#kontakt {
-  background-image: url(tiles-3.jpg);
+  background-image: url('https://github.com/keramicar/hello-world/blob/master/torap/tiles-3.jpg?raw=true');
   text-align: center;
   overflow: auto;
  }
