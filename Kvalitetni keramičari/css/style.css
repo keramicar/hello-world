@@ -385,7 +385,7 @@
   // background-position: 200px centar;
     //display: block;
   
-   background: url('../img/hubble 1.jpg');
+   background: url('https://github.com/keramicar/hello-world/blob/master/Kvalitetni%20kerami%C4%8Dari/img/hubble%201.jpg?raw=true');
    //background: url('../img/HUDF1.jpg');
    
  }
@@ -636,7 +636,7 @@ thead tr:nth-child(1):hover {
 
   thead {
 
-    background: url('../img/naslovna 2.jpg');
+    background: url('');
     background-repeat: no-repeat   ;
     text-shadow: 1px 1px 1px black;
     background-size: cover;
