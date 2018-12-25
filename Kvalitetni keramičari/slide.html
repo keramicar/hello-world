@@ -63,7 +63,9 @@
      padding:10px;
      text-shadow:2px 2px 2px white;
       }
- 
+ #demo .para {
+      display:block;
+      }
     @media(max-width: 450px) {
       canvas {
        display: none;
@@ -289,7 +291,7 @@ section#panel {
   var li = document.querySelectorAll('li')[6];
   var h = document.querySelector('h2');
   var para = document.querySelector('#demo');                                  
- para.style.display='none';
+
  
   
    h.onclick=function() {
@@ -299,7 +301,7 @@ section#panel {
    
     panel.style.fontSize='50px';
     panel.style.backgroundColor='rgba(0,0,255,0.8)';
-    
+    para.classList.add('para');
                                      
  }
 
