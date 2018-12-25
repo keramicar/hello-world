@@ -56,7 +56,12 @@
 
  <style>
  
-
+#panel #demo {
+     color:white;
+      margin-top:100px;
+      font-size: 50px;
+     padding:10px;
+      }
  
     @media(max-width: 450px) {
       canvas {
@@ -282,7 +287,7 @@ section#panel {
   var slide = document.getElementById('slide');
   var li = document.querySelectorAll('li')[6];
   var h = document.querySelector('h2');
-  var para = document.querySelector('demo');                                  
+  var para = document.querySelector('#demo');                                  
  para.style.display='none';
  
   
@@ -293,8 +298,7 @@ section#panel {
    
     panel.style.fontSize='50px';
     panel.style.backgroundColor='rgba(0,0,255,0.8)';
-    para.style.display='block'; 
-    para.style.color='white';
+    
                                      
  }
 
