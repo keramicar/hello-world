@@ -229,7 +229,7 @@ section#panel {
   
    <!-- <img src="img/large_web.jpg"> -->
    <h2>Kvalitetni keramičari</h2>
-  <p style="font-size:30px">Veliki pozdrav za Bađu i Đumića</p>                                
+  <p style="font-size:30px" id="demo">Veliki pozdrav za Bađu i Đumića</p>                                
   
 
   </section>
@@ -282,7 +282,8 @@ section#panel {
   var slide = document.getElementById('slide');
   var li = document.querySelectorAll('li')[6];
   var h = document.querySelector('h2');
-
+  var para = document.querySelector('demo');                                  
+ para.style.display='none';
  
   
    h.onclick=function() {
@@ -292,6 +293,9 @@ section#panel {
    
     panel.style.fontSize='50px';
     panel.style.backgroundColor='rgba(0,0,255,0.8)';
+    para.style.display='block'; 
+    para.style.color='white';
+    para.style.fontWeight='bold';                                 
  }
 
  /*btn.onclick=function() {
